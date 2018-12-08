@@ -32,7 +32,7 @@ router.get('/jwh', function(req, res, next) {
 });
 
 /* Pat Garrett */
-router.get('/jwh', function(req, res, next) {
+router.get('/pg', function(req, res, next) {
   res.render ('west', { title: 'Pat Garrett', picture: 'images/pg.jpg', desc: 'Американский страж закона эпохи Дикого Запада, бармен, ковбой, охотник на бизонов и таможенный агент, известный больше всего тем, что убил знаменитого бандита Билли Кида.'
 })
 });
